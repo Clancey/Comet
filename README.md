@@ -25,7 +25,7 @@ Comet is an MVU style pattern:
 ``` cs
 public class MyPage : View {
 	[Body]
-	View body () => new Text("Hello World");
+	View body() => new Text("Hello World");
 }
 ```
 
@@ -36,7 +36,7 @@ public class MyPage : View {
 	public MyPage() {
 		Body = body;
 	}
-	View body () => new Text("Hello World");
+	View body() => new Text("Hello World");
 }
 ```
 
